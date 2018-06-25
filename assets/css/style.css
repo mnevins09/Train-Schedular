@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+    background-size: contain;
+    background: rgb(41, 41, 102); 
+}
+
+.panel-transparent {
+    background: lightslategrey
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.5);
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.5);
+}
+
+label {
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: deepskyblue;
+}
+
+input {
+    background: rgba(122, 130, 136, 0.2);
+    color: deepskyblue;
+}
+
+textarea:focus, input:focus {
+    color: deepskyblue;
+}
+
+button {
+    color: deepskyblue;
+}
+
+div.jumbotron {
+    background: rgba(122, 130, 136, 0.5);
+}
+
+#header {
+    color: deepskyblue;
+}
+
+h3 {
+    color: white;
+}
